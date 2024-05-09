@@ -1,0 +1,197 @@
+.container {
+    max-width: calc(100% - 40px); /* Растягуємо контейнер практично до країв по горизонталі */
+    margin: 20px auto;
+    padding: 25px; /* Відступи всередині контейнера */
+    background-color: #383377; /* Колір контейнера */
+    color: #FFFFFF; /* Колір тексту */
+    text-align: center; /* Вирівнюємо текст по центру */
+    font-size: 22px; /* Розмір тексту */
+    font-family: 'Courier New'; /* Змінено на Courier New */
+    overflow: hidden; /* Забезпечує, що контент не буде виходити за межі контейнера */
+}
+
+.additional-info {
+    font-size: 22px;
+    margin-top: 50px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.additional {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.add {
+    margin-top: 50px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+    font-size: 22px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    
+    height: 600px; /* Встановлюємо висоту контейнера */
+}
+
+.image-container img {
+    width: 50%; /* Займає 50% всієї ширини */
+    height: auto; /* Автоматично обчислює висоту, щоб зберегти пропорції */
+    max-width: 100%; /* Не дозволяє зображенню перевищувати 100% ширини сторінки */
+    max-height: 100%; /* Не дозволяє зображенню перевищувати 100% висоти контейнера */
+    margin-top: 20px; /* Встановлюємо відступ зверху */
+}
+
+.one {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.two {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.three {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.Contributing {
+    font-size: 22px;
+    margin-top: 50px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.a {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.list {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    margin-left: calc(10% + 50px);
+    padding-right: 10%;
+}
+
+.b {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.list-two {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    margin-left: calc(10% + 50px);
+    padding-right: 10%;
+}
+
+.Development {
+    font-size: 22px;
+    margin-top: 50px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.c {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.list-three {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    margin-left: calc(10% + 50px);
+    padding-right: 10%;
+}
+
+.d {
+    font-size: 15px;
+    margin-top: 20px; /* Відступ від контейнера */
+    padding-left: 10%; /* Відступ від лівого краю на 10% */
+    padding-right: 10%;
+}
+
+.container-two {
+    max-width: calc(100% - 40px); /* Растягуємо контейнер практично до країв по горизонталі */
+    margin: 20px auto;
+    padding: 20px; /* Відступи всередині контейнера */
+    background-color: #333333; /* Колір контейнера */
+    color: #FFFFFF; /* Колір тексту */
+    text-align: center; /* Вирівнюємо текст по центру */
+    font-size: 22px; /* Розмір тексту */
+    font-family: 'Courier New'; /* Змінено на Courier New */
+    overflow: hidden; /* Забезпечує, що контент не буде виходити за межі контейнера */
+    margin-top: 50px;
+}
+
+.container-three {
+    max-width: calc(100% - 40px); /* Растягуємо контейнер практично до країв по горизонталі */
+    margin: 20px auto;
+    padding: 20px; /* Відступи всередині контейнера */
+    background-color: #333333; /* Колір контейнера */
+    color: #FFFFFF; /* Колір тексту */
+    text-align: center; /* Вирівнюємо текст по центру */
+    font-size: 13px; /* Розмір тексту */
+    font-family: 'Courier New'; /* Змінено на Courier New */
+    overflow: hidden; /* Забезпечує, що контент не буде виходити за межі контейнера */
+    margin-top: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon-one {
+    width: 45px; /* Диаметр круга (25px эмодзи + 10px внутренний отступ с каждой стороны) */
+    height: 45px; /* Диаметр круга */
+    background-color: #383377; /* Цвет круга */
+    border-radius: 50%; /* Превращаем прямоугольник в круг */
+    padding: 10px; /* Внутренний отступ */
+    box-sizing: border-box; /* Учитываем padding внутри размера */
+    margin-right: 40px;
+}
+
+.icon-two {
+    width: 45px; /* Диаметр круга (25px эмодзи + 10px внутренний отступ с каждой стороны) */
+    height: 45px; /* Диаметр круга */
+    background-color: #383377; /* Цвет круга */
+    border-radius: 50%; /* Превращаем прямоугольник в круг */
+    padding: 10px; /* Внутренний отступ */
+    box-sizing: border-box; /* Учитываем padding внутри размера */
+    margin-right: 40px;
+}
+
+.icon-three {
+    width: 45px; /* Диаметр круга (25px эмодзи + 10px внутренний отступ с каждой стороны) */
+    height: 45px; /* Диаметр круга */
+    background-color: #383377; /* Цвет круга */
+    border-radius: 50%; /* Превращаем прямоугольник в круг */
+    padding: 10px; /* Внутренний отступ */
+    box-sizing: border-box; /* Учитываем padding внутри размера */
+}
+
+.white-link {
+    color: white; /* Задаємо чорний колір тексту для посилання з класом black-link */
+    text-decoration: none; /* Відключаємо підкреслення */
+}
