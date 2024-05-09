@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.m1 {
+  width: 50%;
+  display: block;
+}
+.info{
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  z-index: 2;
+  top: 9%;
+  left: 0;
+  color: #ffff;
+
+}
+.blur {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  z-index: 2;
+  top: 200px;
+  opacity: 0.3;
+}
+.blur img{
+  height: 700px;
+}
+
+.info h2{
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 70px;
+}
+.info img{
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.golden{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 250px;
+  z-index: 2;
+}
+.p1{
+  padding-right: 40%;
+}
+.p2{
+  position: absolute;
+  top: -1px;
+  padding-left: 70%;
+}
+.p3{
+  padding-top: 15px;
+  padding-right: 52%;
+}
+.p4{
+  position: absolute;
+  padding-left: 34%;
+  top: -1px;
+  padding-top: 35px;
+}
+.p5{
+  position: absolute;
+  padding-left: 70%;
+  top: -1px;
+  padding-top: 35px;
+}
+.orange{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 350px;
+  z-index: 2;
+}
+.p11{
+  padding-right: 38%;
+}
+.p21{
+  position: absolute;
+  top: -1px;
+  padding-left: 70%;
+}
+.p31{
+  padding-top: 15px;
+  padding-right: 52%;
+}
+.p41{
+  position: absolute;
+  padding-left: 34%;
+  top: -1px;
+  padding-top: 35px;
+}
+.p51{
+  position: absolute;
+  padding-left: 70%;
+  top: -1px;
+  padding-top: 35px;
+}
+.cocopops{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 450px;
+  z-index: 2;
+}
+.p12{
+  padding-right: 44%;
+}
+.p22{
+  position: absolute;
+  top: -1px;
+  padding-left: 70%;
+}
+.p32{
+  padding-top: 15px;
+  padding-right: 52%;
+}
+.p42{
+  position: absolute;
+  padding-left: 34%;
+  top: -1px;
+  padding-top: 35px;
+}
+.p52{
+  position: absolute;
+  padding-left: 70%;
+  top: -1px;
+  padding-top: 35px;
+}
+.subtotal{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 550px;
+  z-index: 2;
+}
+.pp1{
+  padding-right: 51%;
+}
+.pp2{
+  position: absolute;
+  top: -1px;
+  padding-left: 70%;
+}
+.pp3{
+  padding-right: 48%;
+  padding-top: 20px;
+}
+.pp4{
+  position: absolute;
+  top: -1px;
+  padding-top: 40px;
+  padding-left: 70%;
+}
+.pp5{
+  padding-right: 35%;
+  padding-top: 20px;
+}
+.pp6{
+  position: absolute;
+  padding-left: 70%;
+  top: -1px;
+  padding-top: 80px;
+}
+.pp7{
+  padding-right: 49%;
+  font-size: 30px;
+  padding-top: 70px;
+}
+.pp8{
+  position: absolute;
+  padding-left: 64%;
+  font-size: 30px;
+  top: -1px;
+  padding-top: 158px;
+}
+
+.opac1 {
+  position: absolute;
+  top: -12px;
+  z-index: -1;
+  background-color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.opac1 img{
+  width: 500px;
+  height: 70px;
+}
+
+.opac2 {
+  position: absolute;
+  top: -9px;
+  z-index: -1;
+  background-color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.opac2 img{
+  width: 500px;
+  height: 70px;
+}
+
+.opac3 {
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+  background-color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.opac3 img{
+  width: 500px;
+  height: 70px;
+}
+
+.opac4 {
+  position: absolute;
+  top: -12px;
+  z-index: -1;
+  background-color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.opac4 img{
+  width: 500px;
+  height: 240px;
+}
+.strelka{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 820px;
+  z-index: 2;
+}
+.strelka img{
+  width: 35px;
+  height: 35px;
+  padding-right: 58%;
+}
+.strelka p{
+  position: absolute;
+  top: -1px;
+  padding-left: 180px;
+  padding-top: 10px;
+}
+
+
+.right{
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  z-index: 2;
+  right: 0;
+  top: 9%;
+  font-weight: 600;
+}
+
+.right form {
+  margin-top: 70px;
+}
+.s1{
+  background-color: #03A9F4;
+}
+.form1 {
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+ 
+  color: #4f626b;
+}
+.form1 input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 20px;
+  background-color:  #03A9F4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form1 p{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.email input {
+  margin-top: 10px;
+}
+.card {
+  margin-top: 30px;
+  position: relative;
+}
+.card input{
+  margin-top: 10px;
+}
+.card img {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 30px;
+}
+.jcb{
+  left: 95%;
+}
+.amex{
+  left: 85%;
+}
+.master{
+  left: 75%;
+}
+.visa{
+  left: 65%;
+}
+.mmyy{
+  display: flex;
+}
+.c1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.mmyy,
+.cvc {
+  width: 200px;
+  margin-top: -5px;
+}
+.cvc img{
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translateY(-50%);
+}
+input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.name{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.name input{
+  margin-top: 10px;
+
+}
+
+.region{
+  display: block;
+  transform: translateY(-50%);
+  color: #4f626b;
+  margin-top: 20%;
+  justify-content: space-between;
+  position: relative;
+}
+.region select {
+  margin-top: 10px;
+  width: 420px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.region input{
+  margin-bottom: 5px;
+}
+.region input{
+  margin-top: -0.5px;
+}
