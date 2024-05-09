@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .left {
+    width: 50%; 
+  }
+
+  .right {
+    width: 50%; 
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  left: 0;
+}
+.left img{
+  display: flex;
+  position: absolute;
+  margin-top: 70px;
+  margin-right: 70%;
+  width: 30px;
+}
+.new{
+  display: flex;
+  position: absolute;
+  margin-top: 190px;
+  margin-right: 70%;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 5px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.mono{
+  display: flex;
+  position: absolute;
+  margin-top: 195px;
+  margin-right: 230px;
+  letter-spacing: 5px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.powe{
+  display: flex;
+  position: absolute;
+  margin-top: 250px;
+  font-size: 60px;
+  padding-right: 100px;
+  letter-spacing: 2px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.into{
+  display: flex;
+  position: absolute;
+  margin-top: 310px;
+  font-size: 60px;
+  padding-right: 90px;
+  margin-right: 100px;
+  letter-spacing: 2px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.proj{
+  display: flex;
+  position: absolute;
+  margin-top: 400px;
+  margin-right: 335px;
+
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.for{
+  display: flex;
+  position: absolute;
+  margin-top: 420px;
+  margin-right: 470px;
+
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.left button{
+  outline: none;
+  border: none;
+}
+.bat{
+  display: flex;
+  position: absolute;
+  margin-top: 500px;
+  margin-right: 425px;
+  color: #ffffff;
+  background-color: #FF5C5C;
+  border-radius: 10px;
+  padding: 15px;
+  letter-spacing: 2px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.to{
+  display: flex;
+  position: absolute;
+  margin-top: 515px;
+  margin-left: 200px;
+  letter-spacing: 5px;
+
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+.right {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  right: 0;
+}
+.header {
+  margin-top: 70px; 
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 80px;
+}
+.header ul {
+  list-style: none;
+  display: flex; 
+}
+.header li a {
+  text-decoration: none;
+  margin: 20px;
+  color:#000000;
+}
+.log{
+  opacity: 0.5;
+}
+.toch {
+  font-size: 40px;
+  opacity: 0.5;
+}
+.devices{
+  position: absolute;
+  display: flex;
+  margin-top: 200px;
+  margin-left: 330px;
+}
+.EEF3F6 {
+  width: 47vw;
+  height: 67vh; 
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 100px;
+  z-index: -1; 
+}
+
